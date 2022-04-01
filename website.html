@@ -32,12 +32,20 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">Catalog&nbsp;</a>
+            </li>
+			  <li class="nav-item">
+              <a class="nav-link" href="#">About VirtYou&nbsp;</a>
+            </li>
+			  <li class="nav-item">
+              <a class="nav-link" href="#">About Empowerment&nbsp;</a>
+            </li>
+			  <li class="nav-item">
+              <a class="nav-link" href="#">Account&nbsp;</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
+              Account&nbsp; </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -56,18 +64,26 @@
 
 
     <!-- Start of section adapted from https://getbootstrap.com/docs/5.1/examples/album/ -->
-    <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light">
-      <div class="row">
-        <div class="col-md-8 col-lg-6 mx-auto">
-          <h1 class="fw-light">Hero section</h1>
-          <p class="lead">A short and snappy tagline that makes your reader want to read things from your website.</p>
-          <p>
-            <a href="#" class="btn btn-lg btn-warning">Call to action</a>
-            <a href="#" class="btn btn-lg btn-danger">Another call to action</a>
-          </p>
-        </div>
+   <header>
+
+  <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+  <div class="overlay"></div>
+
+  <!-- The HTML5 video element that will create the background video on the header -->
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="HeaderVideo.mp4" type="video/mp4">
+  </video>
+
+  <!-- The header content -->
+  <div class="container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+        <h1 class="display-3">Video Header</h1>
+        <p class="lead mb-0">Using HTML5 Video and Bootstrap</p>
       </div>
-    </header>
+    </div>
+  </div>
+</header>
     <!-- End of hero section -->
 
     <!-- Start of carrousel, adapted from https://getbootstrap.com/docs/5.1/components/carousel/ -->
