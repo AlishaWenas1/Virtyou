@@ -1,32 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@700&display=swap');
 
+
+.col-md-one-half
+{width: 50%;
+}
+.col {float:left;
+	width: 50%;
+	padding: 0px 7px 14px;
+}
+.col-lg-one-fourth 
+{width: 25%;
+}
+.col {float:left;
+	width: 25%;
+padding: 0px 7px 14px}
+
 /* Importing a Google Font */
 .video_container{
 	postition: relative;
 	width: 100%;
 	
 }
+.wrapper {
+	width: 100%;
+}
 /* Changing the main font and background colour */
 
 body {
+	width:100%;
+	max-width: 100%;
+	height: auto;
+	vertical-align:middle;
 	font-family: 'Source Serif Pro', serif;
 	background-color: #fffcf8;
+}
+	
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+.row:after {
+	clear:both;
 }
 
 /* Changing the background colour for the header */
 
 header {
 	background-color: #000000;
+	margin: 0;
+	width: 1000px
 }
+
+img{
+	width:100%;
+	max-width: 100%;
+	height: auto;
+	vertical-align:middle;
+		
+}
+video{
+	width:100%;
+	max-width: 100%;
+	height: auto;
+	vertical-align:middle;
+		
+}
+
 
 /* Changing the background color for the navigation bar */
 
 .navbar {
 	background-color: #FFFFFF;
+	
 }
 
 /* Effect on social media buttons */
 
 footer a:hover {
 	opacity: .5;
+	
+	
 }
+
