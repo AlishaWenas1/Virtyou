@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@700&display=swap');
-
-
+h1 {text-indent: 3em;
+}
 .col-md-one-half
 {width: 50%;
 }
@@ -88,7 +88,7 @@ video{
 
 footer a:hover {
 	opacity: .5;
-	
+	width: 100%;
 	
 }
 
