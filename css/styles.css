@@ -49,6 +49,18 @@ body {
 	font-weight: 700;
 	color: #FF0004;
 }
+
+.under-title {
+    width:100%;
+	max-width: 100%;
+	height: auto;
+	vertical-align:middle;
+	font-family: 'Source Serif Pro', serif; 
+	font-weight: 500;
+	color: #000000;
+	
+}
+
 .card-title {
 	width:100%;
 	max-width: 100%;
@@ -169,4 +181,21 @@ footer a:hover {
 	display: block; 
 	width: 300px;
 	
+}.rounded-circle {
+}
+.w-100 {
+}
+.display-2 {
+}
+.display-1 {
+}
+.display-8 {
+}
+.display-7 {
+}
+.display-6 {
+}
+.display-4 {
+}
+.display-5 {
 }
