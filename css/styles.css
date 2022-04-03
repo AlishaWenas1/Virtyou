@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Serif+Pro:wght@300;400;700&display=swap');
 h1 {text-indent: 3em;
 }
 .col-md-one-half
@@ -45,8 +45,28 @@ body {
 	max-width: 100%;
 	height: auto;
 	vertical-align:middle;
-	font-family: 'Source Serif Pro', serif;
+	font-family: 'Source Serif Pro', serif; 
+	font-weight: 700;
 	color: #FF0004;
+}
+.card-title {
+	width:100%;
+	max-width: 100%;
+	height: auto;
+	vertical-align:middle;
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 500;
+	color: #000000;
+}
+
+.card-text {
+	width:100%;
+	max-width: 100%;
+	height: auto;
+	vertical-align:middle;
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 300;
+	color: #000000;
 }
 
 .my-md-2 {
@@ -69,6 +89,7 @@ body {
 	height: auto;
 	vertical-align:middle;
 	font-family: 'Source Serif Pro', serif;
+	font-weight: 700;
 	color: #FF0004;
 	
 }
