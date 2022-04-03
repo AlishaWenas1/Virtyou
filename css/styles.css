@@ -49,6 +49,20 @@ body {
 	color: #FF0004;
 }
 
+.my-md-2 {
+	vertical-align:middle;
+	font-family: 'Source Serif Pro', serif;
+	color: #000000;
+	
+}
+
+.btn-outline-light {
+	vertical-align:middle;
+	font-family: 'Source Serif Pro', serif;
+	color: #000000;
+
+}
+
 .header-content {
     width:100%;
 	max-width: 100%;
