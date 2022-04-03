@@ -41,8 +41,12 @@ body {
 }
 
 .wrapper {
-	margin: 0 auto;
-	width: 100%;
+	width:100%;
+	max-width: 100%;
+	height: auto;
+	vertical-align:middle;
+	font-family: 'Source Serif Pro', serif;
+	color: #FF0004
 }
 
 .row:before, .row:after {
@@ -56,9 +60,12 @@ body {
 /* Changing the background colour for the header */
 
 header {
-	background-color: #000000;
-	margin: 0;
-	width: 1000px
+	width:100%;
+	max-width: 100%;
+	height: auto;
+	vertical-align:middle;
+	font-family: 'Source Serif Pro', serif;
+	color: #FF0004
 }
 
 img{
