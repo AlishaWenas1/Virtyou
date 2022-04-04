@@ -199,3 +199,11 @@ footer a:hover {
 }
 .display-5 {
 }
+
+.brand-text {
+	width: 1000px ; 
+	height: auto;
+	vertical-align:middle;
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 300;
+}
