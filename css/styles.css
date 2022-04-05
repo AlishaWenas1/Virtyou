@@ -204,6 +204,7 @@ footer a:hover {
 	width: 1000px ; 
 	height: auto;
 	vertical-align:middle;
+	margin: auto;
 	font-family: 'Source Serif Pro', serif;
 	font-weight: 300;
 }
