@@ -60,7 +60,7 @@ body {
 	font-family: 'Source Serif Pro', serif;
 	font-weight: 700;
 	font-size: 350px;
-	color: #FF0004;
+	color: #F40F0F;
 }
 
 .under-title {
@@ -85,7 +85,7 @@ body {
 	vertical-align:middle;
 	font-family: 'Source Serif Pro', serif; 
 	font-weight: 500;
-	font-size: 50px;
+	font-size: 70px;
 	color: #000000;
 	
 }
@@ -97,8 +97,17 @@ body {
   width: 100%;
   background-color: black;
   opacity: 0.5;
-  z-index: 1;
+
 	
+}
+
+video{
+	width:100%;
+	max-width: 100%;
+	height: auto;
+	vertical-align:middle;
+	
+		
 }
 
 .card-title {
@@ -141,8 +150,8 @@ body {
 	vertical-align:middle;
 	font-family: 'Source Serif Pro', serif;
 	font-weight: 700;
-	font-size: 200px;
-	color: #FF0004;
+	font-size: 150px;
+	color: #f40f0f;
 	
 
 }
@@ -180,14 +189,7 @@ img{
 	width: 100px;
 	
 }
-video{
-	width:100%;
-	max-width: 100%;
-	height: auto;
-	vertical-align:middle;
-	
-		
-}
+
 
 .container{
 	width:100%;
@@ -250,5 +252,16 @@ footer a:hover {
 	font-family: 'Source Serif Pro', serif;
 	font-weight: 300;
 	background-color:#FFFFFF;
-}.main-header-content {
+
+}
+
+.instagram-text {
+	width: 100% ; 
+	height: auto;
+	vertical-align:middle;
+	margin: auto;
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 300;
+	font-size: 40px;
+	background-color:#FFFFFF;	
 }
