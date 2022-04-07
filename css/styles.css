@@ -102,6 +102,7 @@ body {
 	vertical-align:middle;
 	font-family: 'Source Serif Pro', serif;
 	font-weight: 700;
+	font-size: 200px;
 	color: #FF0004;
 	
 }
@@ -207,4 +208,5 @@ footer a:hover {
 	margin: auto;
 	font-family: 'Source Serif Pro', serif;
 	font-weight: 300;
+	background-color:#FFFFFF;
 }
