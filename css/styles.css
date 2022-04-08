@@ -1,3 +1,4 @@
+/* Importing a Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Serif+Pro:wght@300;400;700&display=swap');
 h1 {text-indent: 3em;
 }
@@ -15,7 +16,7 @@ h1 {text-indent: 3em;
 	width: 25%;
 padding: 0px 7px 14px}
 
-/* Importing a Google Font */
+
 .video_container{
 	postition: relative;
 	width: 100%;
@@ -25,6 +26,8 @@ padding: 0px 7px 14px}
 	width: 100%;
 }
 /* Changing the main font and background colour */
+
+
 
 body {
 	width:100%;
@@ -56,11 +59,23 @@ body {
 	top: 70%;
 	width:100%;
 	max-width: 100%;
+	z-index: 0;
 	vertical-align:middle;
 	font-family: 'Source Serif Pro', serif;
 	font-weight: 700;
 	font-size: 350px;
 	color: #F40F0F;
+
+}
+
+.header-content {
+	width:100%;
+	max-width: 100%;
+	vertical-align:middle;
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 700;
+	font-size: 150px;
+	color: #f40f0f;
 }
 
 .under-title {
@@ -92,7 +107,6 @@ body {
 
 .overlay {
   position: absolute;
-  left: 0;
   height: 100%;
   width: 100%;
   background-color: black;
