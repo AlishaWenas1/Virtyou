@@ -299,7 +299,8 @@ footer a:hover {
 }
 
 .brand-text {
-	width: 80% ; 
+	width:80%;
+	max-width: 100%;
 	height: auto;
 	vertical-align:middle;
 	margin: auto;
@@ -318,4 +319,9 @@ footer a:hover {
 	font-weight: 300;
 	font-size: 40px;
 	background-color:#FFFFFF;	
+}
+
+.pictures-middle{
+	display:flex;
+	justify-content: left;
 }
