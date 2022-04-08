@@ -16,13 +16,12 @@
     <title>Bootstrap Base Template</title>
   </head>
   <body>
-  <br data_temp_dwid="0">
-  
+
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-        <img src="images/Virtyou-logo.svg" width="75" alt="Breda University of Applied Sciences">
+          <img src="images/Virtyou-logo.svg" width="75" alt="Breda University of Applied Sciences">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -36,13 +35,13 @@
               <a class="nav-link" href="catalog.html">Catalog&nbsp;</a>
             </li>
 			  <li class="nav-item">
-              <a class="nav-link" href="about virtyou.html">About VirtYou&nbsp;</a>
+              <a class="nav-link" href="#">About VirtYou&nbsp;</a>
             </li>
 			  <li class="nav-item">
               <a class="nav-link" href="#">About Empowerment&nbsp;</a>
             </li>
 			  <li class="nav-item">
-              <a class="nav-link" href="account.html">Account&nbsp;</a>
+              <a class="nav-link" href="#">Account&nbsp;</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -60,37 +59,37 @@
           </ul>
         </div>
       </div>
-  </nav>
+    </nav>
     <!-- End of navigation bar -->
+
+  <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+  <header>
+
+  <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+  <div class="overlay"></div>
+
+  <!-- The HTML5 video element that will create the background video on the header -->
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="videos/frontpagevideo.mp4">
+	</video> 
+
+
+  <!-- The header content -->
+  <div class="container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+		<h2 class="main-header-content display-1 text-center">VirtYou</h2>
+        <p class="lead mb-0 under-title">Self-Determination | Safety | Responsiveness | Respect</p>
+		  </div>
+    </div>
+  </div>
+</header>
  
 
   <!-- The header content -->
 
     <!-- End of hero section -->
- <div class="container"></div>
-  <html>
-	  <head>
-		  <meta charset="utf8">
-		  <title>SiteVirtYou</title>
-		  <link rel="stylesheet" href="style.css">
-		  </head>
-		  <body>
-	
-	
-	
-	<!-- The HTML5 video element that will create the background video on the header -->
-  <div class="container-fluid overlay"></div>
-	<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-  <source src="videos/frontpagevideo.mp4"></video> 
-</body></html>
 
-	  <div class="container-fluid">
-    <h2 class="main-header-content container-fluid text-center display-1">VirtYou</h2>
-	<h2 class="under-title text-center display-6">Self-Determination &nbsp;| &nbsp;Safety &nbsp;&nbsp;| &nbsp;&nbsp;Responsiveness &nbsp;&nbsp;| &nbsp;&nbsp;Respect</h2></div>
-	  
-	  
-	 
-	  
     <!-- Start of carrousel, adapted from https://getbootstrap.com/docs/5.1/components/carousel/ -->
     <section class="container-fluid p-0">
       <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
