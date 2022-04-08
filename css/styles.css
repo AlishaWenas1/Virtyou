@@ -27,7 +27,46 @@ padding: 0px 7px 14px}
 }
 /* Changing the main font and background colour */
 
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
 
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
 
 body {
 	width:100%;
@@ -55,16 +94,15 @@ body {
 }
 
 .main-header-content {
-	position: absolute;
-	top: 70%;
+	position: relative;
+	top: 60%;
 	width:100%;
 	max-width: 100%;
-	z-index: 0;
 	vertical-align:middle;
 	font-family: 'Source Serif Pro', serif;
 	font-weight: 700;
-	font-size: 350px;
-	color: #F40F0F;
+	font-size: 170px;
+	color: #f40f0f;
 
 }
 
@@ -80,15 +118,14 @@ body {
 
 .under-title {
     position: absolute;
-	top: 17%;
-	z-index: 2;
+	z-index: 130;
 	width:100%;
 	max-width: 100%;
 	height: auto;
 	vertical-align:middle;
 	font-family: 'Source Serif Pro', serif; 
 	font-weight: 500;
-	font-size: 50px;
+	font-size: 30px;
 	color: #FFFFFF;
 	
 }
@@ -164,7 +201,7 @@ video{
 	vertical-align:middle;
 	font-family: 'Source Serif Pro', serif;
 	font-weight: 700;
-	font-size: 150px;
+	font-size: 120px;
 	color: #f40f0f;
 	
 
@@ -257,9 +294,12 @@ footer a:hover {
 }
 .display-5 {
 }
+.display-3{
+
+}
 
 .brand-text {
-	width: 1000px ; 
+	width: 80% ; 
 	height: auto;
 	vertical-align:middle;
 	margin: auto;
