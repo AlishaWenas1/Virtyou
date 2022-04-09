@@ -325,3 +325,122 @@ footer a:hover {
 	display:flex;
 	justify-content: left;
 }
+
+.btn .btn-primary {background-color: #e41513;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	
+}
+.sign-in
+{
+	width: 300px;
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0,3);
+	background: #e41513;
+	padding: 20px;
+	margin: 8% auto 0;
+	text-align: center;
+	background-image: url("file:///C:/Users/Michelle/OneDrive/Bureaublad/GitHubWebsite/Virtyou/images/picturewebsite12.jpg");
+	background-color: #e41513;
+	background-size: cover;
+	background-position: center;
+	
+}
+.sign-in
+{
+	width: 300px;
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+	background: #fff;
+	padding: 20px; 
+	margin: 8% auto 0;
+	text-align: center;
+}
+.sign-in
+{
+	border-radius: 20px;
+	padding: 10px; 
+	margin: 10px 0;
+	width: 100%;
+	border: 1px solid #e41513;
+	outline: none;
+}
+button
+{color: #fff;
+width: 100%;
+padding: 10px;
+	border-radius: 20px;
+	font-size: 15px;
+	margin: 10px 0;
+	cursor: pointer;
+	
+}
+.signup
+{
+	background-color: #1c8adb;
+	
+}
+.register
+{background-color: #21afde;
+}
+a
+{
+	text-decoration: none;
+}
+hr
+{
+	margin-top: 20px;
+	width: 80%;
+}
+.sign-in
+img
+{
+	width: 70px;
+	
+}
+.sign-in h1
+{color: #e41513;
+margin-bottom: 30px}
+
+.input-box{
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px 0;
+	width: 100%;
+	border: 1px solid #e41513;
+	outline: none;
+}
+button
+{
+	color: #fff;
+	width: 100%;
+	border-radius: 20px;
+	font-size: 15px;
+	margin: 10px 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.sign-in-btn
+{backround-color: #000000;
+}
+
+.register-btn
+{background-color: #000000;}
+a
+{text-decoration: none;}
+hr
+{margin-top: 20px;
+width: 80%;}
+
+.or
+{background: #e41516;
+width: 30px;
+margin: 9px auto 10px;}
+
+
+
+
+
