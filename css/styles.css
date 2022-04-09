@@ -1,4 +1,40 @@
-/* Importing a Google Font */
+ <div class="col-sm-12 col-lg-6 col-xl-6 col-md-6">
+          <div class="card shadow h-100">
+            <img class="img-fluid" src="images/SWEATER 2.png" alt="Placeholder Image">
+            <div class="card-body">
+              <h5 class="card-title">Only Logo - Sweater&nbsp; &nbsp;</h5>
+              <p class="card-text">Available in:  White</p>
+              <p class="card-text">Available in: XS, S, M, L, XL, XXL&nbsp;</p>
+            </div>
+            <div class="card-footer p-2 text-end">
+              <a href="#" class="btn btn-primary">View&nbsp;</a>
+            </div>
+          </div>
+        </div> <div class="col-sm-12 col-lg-6 col-xl-6 col-md-6">
+          <div class="card shadow h-100">
+            <img class="img-fluid" src="images/SWEATER 2.png" alt="Placeholder Image">
+            <div class="card-body">
+              <h5 class="card-title">Only Logo - Sweater&nbsp; &nbsp;</h5>
+              <p class="card-text">Available in:  White</p>
+              <p class="card-text">Available in: XS, S, M, L, XL, XXL&nbsp;</p>
+            </div>
+            <div class="card-footer p-2 text-end">
+              <a href="#" class="btn btn-primary">View&nbsp;</a>
+            </div>
+          </div>
+        </div> <div class="col-sm-12 col-lg-6 col-xl-6 col-md-6">
+          <div class="card shadow h-100">
+            <img class="img-fluid" src="images/SWEATER 2.png" alt="Placeholder Image">
+            <div class="card-body">
+              <h5 class="card-title">Only Logo - Sweater&nbsp; &nbsp;</h5>
+              <p class="card-text">Available in:  White</p>
+              <p class="card-text">Available in: XS, S, M, L, XL, XXL&nbsp;</p>
+            </div>
+            <div class="card-footer p-2 text-end">
+              <a href="#" class="btn btn-primary">View&nbsp;</a>
+            </div>
+          </div>
+        </div>/* Importing a Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Serif+Pro:wght@300;400;700&display=swap');
 h1 {text-indent: 3em;
 }
@@ -457,7 +493,6 @@ text-align: center;}
 
 .SignIn
 {background-image: url("file:///C:/Users/Michelle/OneDrive/Bureaublad/GitHubWebsite/Virtyou/images/picturewebsite12.jpg")}
-
 
 
 
