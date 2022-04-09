@@ -498,3 +498,17 @@ text-align: center;}
 {align: "left";
 width: 50%;}
 
+.btnview
+{color: #fff;
+	background-color: #e41513;
+border: solid 2px #e41513;
+border-radius: 50px;
+padding: 10px 50px;}
+
+.btnview:hover {
+	
+	background-color: #fff;
+	color: #e41513;
+}
+
+
