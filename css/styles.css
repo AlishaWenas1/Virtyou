@@ -383,6 +383,17 @@ padding: 10px;
 .register
 {background-color: #fff;
 }
+
+.register-text{
+	width: 100% ; 
+	height: auto;
+	vertical-align:middle;
+	margin: auto;
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 300;
+	font-size: 4vw;
+	color: #000000;
+}
 a
 {
 	text-decoration: none;
@@ -446,9 +457,15 @@ background-position: center;
 }
 
 .sign-in h1
-{color: #000000;
-margin-bottom: 30px;
-text-align: center;}
+{	width: 100% ; 
+	height: auto;
+	vertical-align:middle;
+	margin: auto;
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 300;
+	font-size: 4vw;
+	color: #000000;
+}
 
 .sign-in button
 {color: #000000;}
