@@ -323,9 +323,16 @@ footer a:hover {
 .display-3{
 
 }
-
+.brand-body{
+	width: 90%;
+	max-width: 100%;
+	height: auto;
+	vertical-align:middle;
+	margin: auto;
+	background-color:#FFFFFF;
+}
 .brand-text {
-	width:80%;
+	width: 90%;
 	max-width: 100%;
 	height: auto;
 	vertical-align:middle;
