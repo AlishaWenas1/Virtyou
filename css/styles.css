@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Serif+Pro:wght@300;400;700&display=swap');
-h1 {text-indent: 3em;
-}
+
 .col-md-one-half
 {width: 50%;
 }
@@ -395,7 +394,7 @@ background-position: center;
 	margin: auto;
 	font-family: 'Source Serif Pro', serif;
 	font-weight: 300;
-	font-size: 4vw;
+	font-size: 5vw;
 	color: #000000;
 }
 
