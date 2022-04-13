@@ -445,3 +445,20 @@ margin: 63px;
 	width: 50%; 
 	margin:0 auto;
 }
+
+.content_text{
+color: #f40f0f;
+font-weight: 700;
+font-size: 5vw;
+
+}
+
+.content_subtext{
+	color: #f40f0f;
+	font-size: 3vw;
+}
+
+.brand_vision {
+font-family: 'Source Serif Pro', serif;
+font-style: italic
+}
