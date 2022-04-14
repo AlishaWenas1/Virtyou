@@ -321,7 +321,7 @@ padding: 10px;
 	height: auto;
 	text-align: center;
 	font-family: 'Source Serif Pro', serif;
-	font-weight: 300;
+	font-weight: 500;
 	font-size: 4vw;
 	color: #000000;
 }
@@ -393,8 +393,8 @@ background-position: center;
 	vertical-align:middle;
 	margin: auto;
 	font-family: 'Source Serif Pro', serif;
-	font-weight: 300;
-	font-size: 5vw;
+	font-weight: 500;
+	font-size: 4vw;
 	color: #000000;
 }
 
@@ -462,3 +462,29 @@ font-size: 5vw;
 font-family: 'Source Serif Pro', serif;
 font-style: italic
 }
+
+.h1-responsive {
+font-size: 4vw;
+font-family: 'Source Serif Pro', serif;
+font-weight: 500;
+
+}
+.contact_us {
+	width: 90%;
+	max-width: 100%;
+	height: auto;
+	vertical-align:middle;
+	margin: auto;
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 300;
+}
+.contact_us_frame {
+	width: 70%;
+	max-width: 100%;
+	height: auto;
+	vertical-align:middle;
+	margin: auto;
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 300;
+}
+
